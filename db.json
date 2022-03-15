@@ -1,0 +1,85 @@
+{
+  "petugas": [
+    {
+      "noKamar": "A01",
+      "jmlPasien": 2,
+      "id": 1
+    },
+    {
+      "noKamar": "A02",
+      "jmlPasien": 4,
+      "id": 2
+    }
+  ],
+  "operator": [
+    {
+      "id": 1,
+      "nama": "RSDC",
+      "lantai": 5,
+      "jmlBelokan": 3,
+      "jmlKamar": 5,
+      "noTelp": "(021) 1234567",
+      "jarak": 2,
+      "kecepatan": 1.5,
+      "percepatan": 1
+    }
+  ],
+  "jalur": [
+    {
+      "id": 1,
+      "noLokasi": 2
+    },
+    {
+      "id": 2,
+      "noLokasi": 6
+    }
+  ],
+  "update": [
+    {
+      "noKamar": "A05",
+      "jmlPasien": "0",
+      "id": 1
+    },
+    {
+      "noKamar": "A01",
+      "jmlPasien": "0",
+      "id": 2
+    }
+  ],
+  "peta": [
+    {
+      "id": 0,
+      "noKamar": "dock"
+    },
+    {
+      "id": 1,
+      "noKamar": "A0, A1"
+    }
+  ],
+  "lokasi": [
+    {
+      "zona": 1,
+      "member": "-1, 0",
+      "neighbour": "2",
+      "degree": "90"
+    },
+    {
+      "zona": 2,
+      "member": "-1, 1, -2",
+      "neighbour": "1, 3, 4",
+      "degree": "-90, -90, 90"
+    },
+    {
+      "zona": 3,
+      "member": "7, 6, 5, 4, -2",
+      "neighbour": "2, 4",
+      "degree": "90, 0"
+    },
+    {
+      "zona": 4,
+      "member": "-2, 2, 3",
+      "neighbour": "2, 3",
+      "degree": "-90, 0"
+    }
+  ]
+}
